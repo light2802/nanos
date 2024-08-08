@@ -7,7 +7,7 @@ include $(SRCDIR)/runtime/files.mk
 # To reveal verbose build messages, override Q= in command line.
 Q=		@
 
-ECHO=		echo
+ECHO=		echo -e
 CAT=		cat
 # XXX llvm for darwin
 CP=		cp
